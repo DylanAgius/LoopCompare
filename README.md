@@ -1,6 +1,7 @@
 # Functionality
 
 * A function to compare simulated and experimental hysteresis loops to provide a metric of accuracy.
+* The current metric used is the [median symmetric accuracy](https://doi.org/10.2172/1260362). 
 * The currently functionality assumes the experimental data was gathered in strain-control since it fits polynomials to the stress data.  This will be extended in a future iteration to include stress-controlled data. 
 * A different number of data points for the simulation and experimental can be used since it will fit a polynomial to both sets of data and use common x-values to extract the corresponding y-values to compare accuracy.
 * It is important the same number of points are used for all hysteresis loop in the one sheet.
