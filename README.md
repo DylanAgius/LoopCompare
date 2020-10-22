@@ -15,6 +15,6 @@ You can supply has many loops as you look to compare between but they must be as
 # Use Example
 An example of how to use this capability can be found in the jupyter document *Example_case*
 
-# Requirments
+# Requirements
 numpy, pandas, matplotlib
 
